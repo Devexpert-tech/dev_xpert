@@ -1,0 +1,5 @@
+:root{font-family:Inter, system-ui, Arial, sans-serif}
+body,html,#root{height:100%;margin:0}
+.app{display:flex;flex-direction:column;min-height:100vh}
+.header{background:#111;color:#fff;padding:2rem}
+.content{flex:1;padding:2rem}
