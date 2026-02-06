@@ -7,8 +7,12 @@ export default function Hero() {
         <h2 className="hero-title">Welcome to 天空隊長</h2>
         <p className="hero-sub">A starting point for the app — match this section to Figma layout.</p>
         <div className="hero-actions">
-          <button className="btn primary">Get Started</button>
-          <button className="btn outline">Learn More</button>
+          <a href="#" className="cta-link">
+            <img src="/assets/cta-get-started.svg" alt="Get Started" className="cta-img" />
+          </a>
+          <a href="#" className="cta-link">
+            <img src="/assets/cta-learn-more.svg" alt="Learn More" className="cta-img" />
+          </a>
         </div>
       </div>
     </section>
